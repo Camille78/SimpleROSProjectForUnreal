@@ -1,6 +1,6 @@
 # simpleROSProjectForUnreal
 
-##Dependances 
+## Dependances 
   ros-kinetic-angles
   Qt5Core
   sensor_msgs
@@ -8,5 +8,5 @@
   geographic_msgs
   
   
-##Launch the node :
+## Launch the node :
 roslaunch unrealROS UnrealSimu.launch
