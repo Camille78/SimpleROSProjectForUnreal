@@ -1,0 +1,16 @@
+<launch>
+  <env name="ROSCONSOLE_CONFIG_FILE" value="$(find unrealROS)/config/rosconsole.config"/>
+
+
+  <group ns="drone101">
+    <node pkg="thrusterControllerNode" name="thrusterController" type="thrusterController" output="screen" >
+		  <param name="shipID" value="101"/>
+    </node>
+  </group>
+
+
+  <node pkg="rosserial_server" type="socket_node" name="rosserial_server" />
+  <node pkg="rosserial_python" type="message_info_service.py" name="rosserial_message_info" />
+
+
+</launch>
