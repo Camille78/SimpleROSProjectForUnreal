@@ -1,4 +1,4 @@
-# simpleROSProjectForUnreal
+# SimpleROSProjectForUnreal
 
 ## Dependances 
   - ros-kinetic-angles
