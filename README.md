@@ -10,4 +10,6 @@
   
   
 ## Launch the node :
-roslaunch unrealROS UnrealSimu.launch
+
+    catkin build
+    roslaunch unrealROS UnrealSimu.launch
